@@ -1,0 +1,14 @@
+#incle<iostream>
+#include<ctime>
+using namespace std;
+int main()
+{
+  cout<< "\n \t\t  Welcome To Word Guessing Game\n" <<endl;
+   cout<< "\n \t\t  You Will Have To Guess A Number Between 1 to 100." ;
+   cout<< "\n \t\t  Lets Starts Playing And Best Of Luck" <<endl;
+
+  srand(time(0));
+  int randNumber = ( rand() % 100) + 1;
+  cout << "\n ^^Ypu Will habe total 5 chances to guess  
+  
+}
